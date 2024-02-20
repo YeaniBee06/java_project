@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class EmployeeManagmentSystem {
+public class EmployeeManagementSystem {
     private ArrayList<Employee>employees;
     private int nextId;
-    public EmployeeManagmentSystem () {
+    public EmployeeManagementSystem () {
         employees = new ArrayList<>();
         nextId = 1;
 
@@ -40,6 +40,18 @@ public class EmployeeManagmentSystem {
     }
 
     public void updateEmployeeLeave(int idToUpdateLeave, String newLeaveDate) {
+    }
+
+    public void addEmployee() {
+    }
+
+    public void removeEmployee() {
+    }
+
+    public void updateEmployeeSalary() {
+    }
+
+    public void updateEmployeeLeave() {
     }
 }
 

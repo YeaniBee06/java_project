@@ -10,6 +10,12 @@ public class Employee {
     public Employee(int nextId, String name, double salary) {
     }
 
+    public Employee (int id, String name, String address) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }
+
     public Employee(int id, String name, double salary, String address, int age, String leaveDate) {
         this.id = id;
         this.name = name;
@@ -25,6 +31,10 @@ public class Employee {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public double getSalary() {
